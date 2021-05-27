@@ -29,7 +29,7 @@ stages:
 
 - stage: 'Deploy'
   displayName: 'Deploy the container'
-  dependsOn: Build
+  #dependsOn: Build
   jobs:
   - job: 'Deploy'
     displayName: 'Deploy job'
